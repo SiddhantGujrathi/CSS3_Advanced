@@ -1,0 +1,13 @@
+.uppercase {
+    text-transform: uppercase;
+  }
+  .shadow {
+    text-shadow: 3px 3px 2px grey , -3px -3px 0px rgb(255, 157, 0);
+  }
+  .decorate {
+    text-decoration: underline;
+  }
+  .indent {
+    text-indent: 20px;
+  }
+  

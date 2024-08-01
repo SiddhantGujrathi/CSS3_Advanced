@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cascading order</title>
+    <style>
+        #sid #pid {         /* 200 */
+          color: blue;
+        }
+        
+        .pclass {   /* 10 */
+          background-color: pink;
+        }
+        
+        #pid {      /* 100 */
+          background-color: lightblue;
+        }
+        
+        #secid p {  /* 101 */
+          color: red;
+        }
+
+        p #para1 {  /* 101 */
+          color: green;
+        }
+        
+    </style>
+    <meta charset="UTF-8"> 
+</head>
+
+<body>
+    <section class="sclass" id="sid">
+        <p class="pclass" id="pid">Cascading order</p>
+    </section>
+    <section class="sec" id="secid">
+        <p id="para1">This is a sample paragraph</p>
+    </section>
+</body>
+
+</html>

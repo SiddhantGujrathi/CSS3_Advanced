@@ -1,0 +1,30 @@
+@font-face {
+    font-family: face;
+    src: url('/blackjack.otf');
+}
+div.out2
+{
+    width: 650px;
+    height: 370px;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+h3{
+    font-family: face;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-indent: 100px;
+}
+.out2 li
+{
+    margin: 5px 0;
+    padding: 15px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background-color: #87CEFA;
+}
+.out2 a
+{
+	font:bold 1.4em arial, helvetica;
+}

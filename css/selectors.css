@@ -1,0 +1,30 @@
+body {
+    background-color: lightgrey;
+  }
+  .red {
+    color: red;
+  }
+ 
+  div p {
+    background-color: yellow;
+    color: green;
+  }
+  h1,
+  h2,
+  h3 {
+    color: maroon;
+  }
+
+  a:hover {
+    background-color: black;
+    color: white;
+  }
+  a:visited {
+    color: red;
+  }
+
+  p::first-letter {
+    color: #8a2be2;
+    font-size: 200%;
+  }
+  

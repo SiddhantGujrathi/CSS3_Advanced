@@ -1,0 +1,49 @@
+* {
+    padding: 20px;
+}
+
+div{
+    display: flex;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 0;
+    font-size: 30px;
+    border-bottom: 2px gray solid;
+    margin-bottom: 15px;
+    outline: none;
+}
+
+form > input {
+    margin-bottom: 70px;
+}
+
+button[type="submit"] {
+    color: white;
+    background-color: rgb(255, 86, 25);
+    margin-top: 50px;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+input:focus {
+    border: 0;
+    font-size: 30px;
+    border-bottom: 5px red solid;
+}
+
+
+
+.SignUp {
+    font-size: 50px;
+    color: red;
+}

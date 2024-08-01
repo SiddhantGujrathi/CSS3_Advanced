@@ -1,0 +1,7 @@
+img
+{
+	margin-left:150px;
+	margin-top:50px;
+	border: 50px solid transparent;
+	border-image:url(/images/frame1.jpg) 13% 17% 14% 15%;
+}

@@ -1,0 +1,14 @@
+div > p {
+    background-color: lightblue;
+    color: green;
+}
+
+div + p {
+    color: blue;
+    font-weight: bold;
+}
+
+div ~ p {
+    text-transform: uppercase;
+    text-decoration: underline;
+}

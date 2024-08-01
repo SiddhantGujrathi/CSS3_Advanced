@@ -1,0 +1,11 @@
+#myDIV 
+{ 
+	border: 15px solid transparent; 
+	border-image: url(/images/border.png); 
+	border-image-slice: 50; 
+	border-image-repeat:stretch; 
+	border-image-outset:10px; 
+	height: 50px; 
+	padding: 15px; 
+	width: 200px; 
+} 

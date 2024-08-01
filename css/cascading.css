@@ -1,0 +1,26 @@
+sid {            /* specificity -> 1 */
+    color: blue;
+    font-size: 10px;
+}
+  
+#sid p {         /* specificity -> 100 + 1 = 101 with !imp ==> high power */
+    color: red !important;
+}
+  
+section #pid {  /* specificity -> 1 + 100 = 101 */
+    color: green;
+    font-size: 150%;
+}
+  
+#sid #pid {     /* specificity -> 100 + 100 = 200 */
+    color: blue;
+}
+  
+section.sclass p#pid.pclass {   /* specificity -> 1 + 10 + 1 + 100 + 10 = 122 */
+    color: green;
+}
+  
+p {     /* specificity -> 1 with !imp ==> high power */
+    color: limegreen !important;
+}
+  
